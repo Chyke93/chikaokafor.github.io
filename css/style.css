@@ -235,8 +235,8 @@ main {
 }
 
 #welcome-note .description {
-    background-color: rgba(50, 21, 212, 0.557);
-    color: whitesmoke;/**#477890; rgba(102, 51, 153, 0.388)**/
+    background-color: /***rgba(50, 21, 212, 0.557)***/rgba(255, 255, 255, 0.7);
+    color: #477890;/** rgba(102, 51, 153, 0.388)**/
     font-size: 1.5em;
     padding: 10%;
     text-align: left;
@@ -484,6 +484,10 @@ TABLET STYLES
     .about {
         width: 100%;
     }
+    
+    .about h3 {
+        padding-left: 0.5%;
+    }
 
 
 /*******************
@@ -495,14 +499,8 @@ TABLET STYLES
         width: 100%;
     }
 
-    .portfolio h2 {
-    }
-
     .portfolio-item {
         width: 45%;
-    }
-
-    .portfolio h3 {
     }
 
     .portfolio img {
@@ -546,7 +544,7 @@ DESKTOP STYLES
     .container {
         font-size: 1.1em;
         margin: 50px 0 30px 0;
-        width: 70%;
+        width: 75%;
     }
 
     #welcome-note {
@@ -581,6 +579,10 @@ DESKTOP STYLES
         height: 250px;
     }
 
+    .about h3 {
+        padding-left: 0.5%;
+    }
+
     .about p {
         line-height: 1.5em;
     }
@@ -590,7 +592,7 @@ DESKTOP STYLES
     PORTFOLIO PAGE
     *******************/
     .portfolio-item {
-        width: 30%;
+        width: 28%;
     }
 }
 
